@@ -1,0 +1,124 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: 'Roboto Slab', serif;
+}
+
+.head h1{
+
+
+    font-weight: 600;
+    width: 37.5rem;
+    color:rgba(255, 255, 255, 0.692);
+
+}
+.head{
+    height: 80vh;
+    background-image: url(cdc-UC9_itYaafM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+#btn{
+    background: aliceblue;
+    border: none;
+    color: black;
+}
+.about svg{
+    width: 25rem;
+    height: 21.875rem;
+}
+.svg-vector svg{
+    margin-left: 3rem;
+    width: 31.25rem;
+    height: 28.125rem;
+}
+.services{
+    height: auto;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    color: #e9ecef;
+    border-radius: .3rem;
+    background-color: #330000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23000000'/%3E%3Cstop offset='1' stop-color='%23330000'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%2347300e' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%2347300e' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+text-align: center;
+  }
+
+.card-body{
+    color: #000;
+}
+.card-body h5{
+    text-decoration: underline;
+}
+
+label{
+    color: #000;
+    font-weight: 500;
+}
+.appoint{
+
+    background:#e9ecef;
+    height: auto;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-radius: .3rem;
+}
+.appoint button{
+    width: 50%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #e9ecef;
+}
+.footer a  :hover{
+    color:lightgreen;
+ 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+ .header {
+     overflow: hidden;
+     margin-top: 250px;
+     background: #262626;
+     color: #627482 !important;
+     margin-bottom: 0;
+     padding-bottom: 0
+ }
+
+ small {
+     font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .bold-text {
+     color: #989c9e !important
+ }
+
+ .mt-55 {
+     margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ h3 {
+     font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .social {
+     font-size: 21px !important
+ }
+
+ .rights {
+     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+ }
